@@ -3,5 +3,7 @@
 ## Setup
 
 ```
-pip install -r requirements.txt
+conda env create --prefix ./env -f environment.yml
+conda activate ./env
+conda env update --file environment.yml
 ```

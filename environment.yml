@@ -1,0 +1,7 @@
+name: raylib
+dependencies:
+  - git
+  - pip
+  - pip:
+    - git+https://github.com/adamlwgriffiths/raylib-py.git
+    - git+https://github.com/adamlwgriffiths/raylib-py-flat.git
